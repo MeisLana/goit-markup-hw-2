@@ -19,7 +19,7 @@ h2 {
 text-align: center;
 
 /* Header 2 */
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11; 
@@ -28,7 +28,7 @@ text-transform: capitalize;
 }
 h3 {
      /* Header 3 */
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
@@ -38,7 +38,7 @@ p{
     color: var(--SLATE, #434455);
 
     /* Body */
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
@@ -50,7 +50,7 @@ p{
 }
 .logo {
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; 
@@ -62,7 +62,7 @@ p{
 }
 .header-list {
 /* Body Medium */
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
@@ -87,7 +87,7 @@ letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
 
     /* Body */
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5; 
     letter-spacing: 0.32px;  
 }
@@ -105,7 +105,7 @@ letter-spacing: 0.02em;
 text-align: center;
 
 /* Header 1 */
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-size: 56px;
 font-style: normal;
 font-weight: 700;
@@ -113,18 +113,17 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 }
 .button {
-    background: var(--IRIS, #4D5AE5);
+    background-color: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
-
 /* Button Text */
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 line-height: 1.5; 
-letter-spacing: 0.04em;
+letter-spacing: 0.04em; cursor: pointer;
 }
 .button:hover,
 .button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 /* Skills section */
