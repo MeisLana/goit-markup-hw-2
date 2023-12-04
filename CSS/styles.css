@@ -14,9 +14,16 @@ ul,ol {
 }
 a {
     text-decoration: none;
+    
 }
-h2 {
-text-align: center;
+/* Reset stiles */
+/* Common styles */
+button {
+    cursor: pointer;
+}
+.team-title, 
+.portfolio-subject {
+    text-align: center;
 color: #2E2F42;
 font-family: 'Roboto', sans-serif;
 font-size: 36px;
@@ -25,15 +32,19 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-h3 {
-font-family: 'Roboto', sans-serif;
+.skills-title,
+.team-name,
+.portfolio-title {
+    font-family: 'Roboto', sans-serif;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
-p{
+.skills-text,
+.team-text,
+.portfolio-text {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5; 
     letter-spacing: 0.02em;
@@ -99,7 +110,6 @@ letter-spacing: 0.02em;
 text-align: center;
 font-family: 'Roboto', sans-serif;
 font-size: 56px;
-font-style: normal;
 font-weight: 700;
 line-height: 1.07; 
 letter-spacing: 0.02em;
@@ -112,7 +122,6 @@ font-family: 'Roboto', sans-serif;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.04em; 
-cursor: pointer;
 }
 .button:hover,
 .button:focus {
