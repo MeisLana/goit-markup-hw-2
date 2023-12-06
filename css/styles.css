@@ -88,7 +88,8 @@ letter-spacing: 0.02em;
 .contacts-link {
     color: currentColor;
     line-height: 1.5; 
-    letter-spacing: 0.32px;  
+    letter-spacing: 0.32px;
+    font-style: normal;  
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -141,6 +142,7 @@ letter-spacing: 0.04em;
 .team-title {
 }
 .team-list {
+    background-color: #FFFFFF;
 }
 .team-item {
 }
@@ -178,4 +180,6 @@ letter-spacing: 0.04em;
 }
 .footer-text {
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
