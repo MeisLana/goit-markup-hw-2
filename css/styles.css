@@ -137,11 +137,12 @@ letter-spacing: 0.04em;
 
 /* Team section */
 .team {
-    background-color: #FFFFFF; 
+    background-color: #F4F4FD; 
 }
 .team-title {
 }
 .team-list {
+    background-color: #FFFFFF;
 }
 .team-item {
 }
