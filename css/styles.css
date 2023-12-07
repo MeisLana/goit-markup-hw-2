@@ -80,6 +80,7 @@ letter-spacing: 0.02em;
 }
 /* Address */
 .contacts {
+    font-style: normal; 
 }
 .contacts-list {
 }
@@ -88,8 +89,7 @@ letter-spacing: 0.02em;
 .contacts-link {
     color: currentColor;
     line-height: 1.5; 
-    letter-spacing: 0.32px;
-    font-style: normal;  
+    letter-spacing: 0.32px;  
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -137,12 +137,11 @@ letter-spacing: 0.04em;
 
 /* Team section */
 .team {
-    background: #F4F4FD;
+    background-color: #FFFFFF; 
 }
 .team-title {
 }
 .team-list {
-    background-color: #FFFFFF;
 }
 .team-item {
 }
